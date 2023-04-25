@@ -1,6 +1,8 @@
 import Inheritance.Masina;
 import Inheritance.Vehicul;
-
+import Polymorphism.Mammal;
+import Polymorphism.Dog;
+import Polymorphism.Cat;
 public class Main {
     public static void main(String[] args) {
 //        BankAccount bankAccount = new BankAccount(56675765, 765, "Ana Vicneanscaia");
@@ -12,11 +14,16 @@ public class Main {
 //        System.out.println("Account belongs to " + accountHolder);
 
 
-        Masina masina = new Masina("BMW");
-        masina.showVehicleDetails();
+//        Masina masina = new Masina("BMW");
+//        masina.showVehicleDetails();
+//
+//        Vehicul vehicul  = new Vehicul();
+//        vehicul.showVehicleDetails();
 
-        Vehicul vehicul  = new Vehicul();
-        vehicul.showVehicleDetails();
+        Mammal cat = new Cat();
+        cat.emiteSunet();
+        Mammal dog = new Dog();
+        dog.emiteSunet();
 
     }
 }
