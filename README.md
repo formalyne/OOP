@@ -1,1 +1,1 @@
-# This reposictory contains 4 OOP
+# This reposictory contains all course tasks
