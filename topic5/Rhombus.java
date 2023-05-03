@@ -3,7 +3,6 @@ public class Rhombus extends GeometricFigure {
     private int sideLength;
     private int height;
 
-
     @Override
     double returnArea() {
         return sideLength*height;
@@ -24,6 +23,7 @@ public class Rhombus extends GeometricFigure {
         }
         this.sideLength = sideLength;
     }
+
     public int getHeight() {
         return height;
     }
