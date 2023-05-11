@@ -10,4 +10,6 @@ public class Main {
         fileManager.addInfoInFile("./topic7/test.txt","test info in file ");
         fileManager.readFileInfo("./topic7/test.txt");
     }
+
+    //test
 }
